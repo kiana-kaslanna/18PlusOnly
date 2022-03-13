@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: black white;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+}
+
+.ant-layout-header {
+    background-color: white !important;
+    padding: 0 !important;
+}
+
+.ant-menu-inline .ant-menu-selected::after,
+.ant-menu-inline .ant-menu-item-selected::after {
+    border: 0px !important;
+}
+
+.ant-menu * {
+    color: black !important;
+}
+
+.ant-menu-item-selected * {
+    color: white !important;
+}

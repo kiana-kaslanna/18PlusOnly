@@ -1,0 +1,24 @@
+.button {
+    width: 45px;
+    height: 45px;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    fill: black;
+}
+
+.button:hover,
+.button.active {
+    fill: white !important;
+    background-color: black;
+}
+
+.button svg {
+    width: 25px;
+    height: 25px;
+}
